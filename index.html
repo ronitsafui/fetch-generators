@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Fetch API with Generators</title>
+	<style>
+	#container {
+		background-color: red;
+    height: 50px;
+    width: 50px;
+	}
+	</style>
+</head>
+
+<body>
+	<div>
+		<button onclick="runPolling();">Fetch Polls</button>
+		<button onclick="reset();">Reset</button>
+		<button onclick="console.log('In parallel');"> Fetch in parallel</button>
+	</div>
+	<div id="container">
+
+	</div>
+
+	<script src="node_modules/whatwg-fetch/fetch.js"></script>
+	<script src="./app.js"></script>
+</body>
+</html>
